@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="header__logo">
-        <StorefrontIcon class="header__logo__image" />
+        <StorefrontIcon className="header__logo__image" fontSize="large" />
         <h2 className="header__logo__title">eSHop</h2>
       </div>
       <div className="header__search">
@@ -24,8 +24,8 @@ export default function Header() {
           <span className="nav__itemLineOne">Your</span>
           <span className="nav__itemLineTwo">Shop</span>
         </div>
-        <div className="nav__item">
-          <ShoppingBasketIcon className="nav__itemBasket" />
+        <div className="nav__itemBasket">
+          <ShoppingBasketIcon />
           <span className="nav__itemLineTwo nav__basketCount">0</span>
         </div>
       </div>
